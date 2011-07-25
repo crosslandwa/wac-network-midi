@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 100.0, 100.0, 200.0, 280.0 ],
+		"rect" : [ 102.0, 101.0, 200.0, 280.0 ],
 		"bgcolor" : [ 0.35, 0.35, 0.35, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 100.0, 100.0, 200.0, 280.0 ],
+		"defrect" : [ 102.0, 101.0, 200.0, 280.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -569,17 +569,17 @@
 					"presentation_rect" : [ 10.0, 80.0, 180.0, 190.0 ],
 					"embed" : 1,
 					"numinlets" : 1,
-					"patching_rect" : [ 163.0, 97.0, 67.0, 71.0 ],
+					"patching_rect" : [ 163.0, 100.0, 67.0, 71.0 ],
 					"presentation" : 1,
 					"id" : "obj-19",
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 163.0, 97.0, 67.0, 71.0 ],
+						"rect" : [ 10.0, 80.0, 180.0, 190.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 163.0, 97.0, 67.0, 71.0 ],
+						"defrect" : [ 10.0, 80.0, 180.0, 190.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -3548,7 +3548,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "message",
-									"hint" : "Send a message to wacNetworkMIDI running on the Slave computer. If successful, a message will be shown in the Max window (cmd/ctrl + m) on the Slave instance of the application",
+									"hint" : "Send a message to wacNetworkMIDI running on the target computer. If successful, a message will be shown in the Max window (cmd/ctrl + m) in the Slave instance of the application",
 									"text" : "Test Network Connection",
 									"fontsize" : 9.0,
 									"presentation_rect" : [ 50.0, 160.0, 120.0, 15.0 ],
@@ -3565,7 +3565,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "number",
-									"hint" : "Any MIDI received by wacNetworkMIDI willl be output over the computer's network on this port",
+									"hint" : "Any MIDI received by wacNetworkMIDI willl be output over the computers network on this port",
 									"varname" : "networkSendPort",
 									"fontsize" : 9.0,
 									"maximum" : 10000,
