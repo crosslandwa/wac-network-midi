@@ -1,0 +1,17 @@
+Todo - 1.5.0
+rename files consistently with hyphens
+Build + add defaults file to package
+
+Todo - 1.5+
+make icon
+
+As it stands, new version:
+launches under SL
+launches under Tiger
+launches under XP
+
+DONE
+defaults work as long as defaults.json file is dragged into package
+has scripted resize window for building
+add about broadcast IP address to documentation
+pattrstorage defaults using Max 5.1.7 fix
